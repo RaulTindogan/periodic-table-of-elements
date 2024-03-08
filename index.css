@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #313740;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 5px;
+    padding: 15px;
+}
+
+.element-symbol, .element-name {
+    text-align: center;
+}
+
+.atomic-number {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.element-symbol {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.element-name {
+    font-size: 9px;
+    letter-spacing: .50px;
+}
+
+.boxes {
+    width: 100%;
+
+    background-color: orange;
+    display: none; 
+}
+
+.boxes1 {
+    width: 68px;
+    background-color: orange;
+    padding: 10px 0;
+}
+
+.h1-box {
+    grid-area: 1/1;
+}
+
+.he-box {
+    grid-area: 1/18;
+}
+
+.li-box {
+    grid-area: 2/1;
+}
+
+.diatomic-nonmetal {
+    color: white;
+    background-color: rgb(216, 17, 89);
+}
+
+.alkaline-earth-metal {
+    color: white;
+    background-color: rgb(228, 81, 67);
+}
+
+.alkali-metal {
+   background-color: rgb(143, 45, 86);
+   color: white;
+}
+
+.polyatomic-nonmetal {
+    color: white;
+    background-color: rgb(0, 163, 0);
+}
+
+.noble-gas {
+    background-color: rgb(77, 66, 184);
+    color: white;
+}
+
+.metalloid {
+    background-color: rgb(30, 68, 93);
+    color: white;
+}
+
+.post-transition-metal {
+    background-color: rgb(127, 72, 0);
+    color: white;
+}
+
+.transition-metal {
+    background-color: rgb(86, 66, 62);
+    color: white;
+}
+
+.lanthanide {
+    background-color: rgb(0, 143, 122);
+    color: white;
+}
+
+.actinide {
+    background-color: rgb(127, 105, 231);
+    color: white;
+}
